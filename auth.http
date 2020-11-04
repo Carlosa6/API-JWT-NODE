@@ -10,3 +10,12 @@ Content-Type: application/json
     "password":"loraeyou",
     "roles":["admin","moderator"]
 }
+
+### SIGNIN
+POST {{api}}/signin
+Content-Type: application/json
+
+{
+    "email":"lora930@gmail.com",
+    "password":"loraeyou"
+}

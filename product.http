@@ -8,11 +8,12 @@ GET {{api}}
 ### POST
 POST {{api}}
 Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYTI0YWFhMGYzZTRhMmY3MDM1ODMxZSIsImlhdCI6MTYwNDUxMTYzNCwiZXhwIjoxNjA0NTk4MDM0fQ.OKmE6tSmbsw6LOBRSXOVUqhuZPPk4qrBVXNthTpJWWQ
 
 {
-    "name": "Teclado Asus9u",
+    "name": "Teclado 48er",
     "category": "technology",
-    "price": 600,
+    "price": 700,
     "imgUrl": "https://www.blueplanet-tec.com/wp-content/uploads/2019/12/teclado-gamer-rainbow.jpg"
 }
 
