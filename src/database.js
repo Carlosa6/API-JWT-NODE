@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
+import config from './config'
 
-mongoose.connect('mongodb+srv://root:rPCMVTjEpvHEap09@dicweb.ihkbp.mongodb.net/api-jwt-node?retryWrites=true&w=majority', {
+mongoose.connect(config.MONGODB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: true,
