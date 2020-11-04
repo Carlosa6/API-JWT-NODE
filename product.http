@@ -1,0 +1,33 @@
+### PRIMERO SE INSTALA LA EXTENSIÓN REST CLIENT
+
+@api = http://localhost:3000/api/products
+
+### GET
+GET {{api}}
+
+### POST
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name": "Teclado Asus9u",
+    "category": "technology",
+    "price": 600,
+    "imgUrl": "https://www.blueplanet-tec.com/wp-content/uploads/2019/12/teclado-gamer-rainbow.jpg"
+}
+
+### GET BY ID
+@id = 5fa199d8cf51f922b0986d9d
+GET {{api}}/{{id}}
+
+### PUT 
+PUT {{api}}/{{id}}
+Content-Type: application/json
+
+{
+    "price":1500
+}
+
+### DELETE
+@idelete = 5fa19cb29286420e6c1b4009
+DELETE {{api}}/{{idelete}}

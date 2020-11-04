@@ -1,0 +1,12 @@
+@api = http://localhost:3000/api/auth
+
+### SIGNUP
+POST {{api}}/signup
+Content-Type: application/json
+
+{
+    "username":"Lora Willms",
+    "email":"lora930@gmail.com",
+    "password":"loraeyou",
+    "roles":["admin","moderator"]
+}
