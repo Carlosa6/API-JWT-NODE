@@ -30,5 +30,7 @@ Content-Type: application/json
 }
 
 ### DELETE
-@idelete = 5fa19cb29286420e6c1b4009
+@idelete = 5fa2e8218ac2d70324f20f99
 DELETE {{api}}/{{idelete}}
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYTMzYWZiYmIyZmQxNDk4YzlhN2ExYiIsImlhdCI6MTYwNDUzMjk4OCwiZXhwIjoxNjA0NjE5Mzg4fQ.WHJHskgytwF4oGbbOyVcuJiZpSqIAZ46KNm41-GUNlo
+

@@ -5,10 +5,9 @@ POST {{api}}/signup
 Content-Type: application/json
 
 {
-    "username":"Lora Willms",
-    "email":"lora930@gmail.com",
-    "password":"loraeyou",
-    "roles":["admin","moderator"]
+    "username":"Geovanni Dach",
+    "email":"nicole8d@gmail.com",
+    "password":"nisodd"
 }
 
 ### SIGNIN
